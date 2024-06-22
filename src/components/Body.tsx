@@ -4,7 +4,7 @@ import Header2 from "./Header2";
 import Header3 from "./Header3";
 import Modal from "./Modal";
 import Table2 from "./Table2";
-import Modal2 from "./Modal2";
+// import Modal2 from "./Modal2";
 import Filter from "./Filter";
 import { filterAtom } from "@/utils/atom";
 import { useAtom } from "jotai";
@@ -20,7 +20,7 @@ const Body = () => {
         {isFilter && <Filter />}
 
         <Table2 />
-        <Modal2 />
+        {/* <Modal2 /> */}
         <Footer />
       </div>
     </>

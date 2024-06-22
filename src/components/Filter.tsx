@@ -25,7 +25,7 @@ const Filter = () => {
   };
   return (
     <>
-      <div className="absolute z-40    bottom-[1px] lg:bottom-64 w-[21rem] lg:w-[30rem] h-[300px] bg-slate-50 px-2 py-2 shadow-md rounded-lg">
+      <div className="absolute z-40    bottom-[1px] lg:bottom-48 w-[21rem] lg:w-[30rem] h-[300px] bg-slate-50 px-2 py-2 shadow-md rounded-lg">
         <div className=" grid grid-cols-3 border-b-1 border-solid border-slate-300 h-[80%]">
           <FilterSidebar
             selectedComp={selectedComp}
